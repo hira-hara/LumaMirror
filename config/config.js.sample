@@ -85,6 +85,23 @@ let config = {
 				lon: myLong
 			}
 		},
+        {
+			module: "MMM-IRController",
+			position: "bottom_left",
+			config: {
+				debug: true,
+				buttonMap: {
+				POWER: "KEY_POWER",
+				UP: "KEY_UP",
+				DOWN: "KEY_DOWN",
+				LEFT: "KEY_LEFT",
+				RIGHT: "KEY_RIGHT",
+				OK: "KEY_ENTER",
+				BRIGHT_DOWN: "KEY_0",
+				BRIGHT_UP: "KEY_1"
+				}
+			}
+		}
 	]
 };
 
